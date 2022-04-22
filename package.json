@@ -1,0 +1,28 @@
+{
+  "name": "blog_git",
+  "version": "1.0.0",
+  "description": "Repository associé à un article du site https://blog.manuso.fr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass/main.scss:./css/styles.css  --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esauvage1978/blog_git.git"
+  },
+  "keywords": [
+    "Git",
+    "GitHub",
+    "Gitkraken"
+  ],
+  "author": "Emmanuel SAUVAGE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esauvage1978/blog_git/issues"
+  },
+  "homepage": "https://github.com/esauvage1978/blog_git#readme",
+  "dependencies": {
+    "sass": "^1.50.1"
+  }
+}
